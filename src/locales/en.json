@@ -1,0 +1,60 @@
+{
+  "common": {
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "viewAll": "View All",
+    "loading": "Loading...",
+    "search": "Search",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "confirm": "Confirm"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "brands": "Brands",
+    "sale": "Sale",
+    "blog": "Blog",
+    "cart": "Cart",
+    "wishlist": "Wishlist",
+    "account": "Account",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "product": {
+    "outOfStock": "Out of Stock",
+    "inStock": "In Stock",
+    "reviews": "reviews",
+    "brand": "Brand",
+    "category": "Category",
+    "sku": "SKU",
+    "quantity": "Quantity",
+    "variant": "Variant"
+  },
+  "cart": {
+    "empty": "Your cart is empty",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "freeShipping": "Free",
+    "checkout": "Checkout",
+    "coupon": "Coupon Code",
+    "applyCoupon": "Apply"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone"
+  }
+}
