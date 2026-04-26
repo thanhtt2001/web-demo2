@@ -3,8 +3,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: false },
 
+  // SPA mode for GitHub Pages (no server required)
+  ssr: false,
+
   nitro: {
-    preset: 'vercel',
+    preset: 'github-pages',
   },
 
   // Module-based directory structure
@@ -39,7 +42,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     apiSecret: '',
     public: {
-      apiBase: process.env.NUXT_PUBLIC_API_BASE || 'https://api.cosmetic-shop.com',
+      apiBase: process.env.NUXT_PUBLIC_API_BASE || '',
       appName: 'Cosmetic Shop',
     },
   },
@@ -52,6 +55,9 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   app: {
+    // Must match your GitHub repo name
+    baseURL: '/web-demo2/',
+    buildAssetsDir: 'assets',
     head: {
       title: 'Cosmetic Shop - Mỹ phẩm chính hãng',
       meta: [
@@ -63,7 +69,7 @@ export default defineNuxtConfig({
         },
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/x-icon', href: '/web-demo2/favicon.ico' },
         {
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap',
