@@ -1,0 +1,1 @@
+function e(t){return new Intl.NumberFormat("vi-VN",{style:"currency",currency:"VND"}).format(t)}function a(t,n){const r={day:"2-digit",month:"2-digit",year:"numeric",...n};return new Intl.DateTimeFormat("vi-VN",r).format(new Date(t))}function u(t,n){return!t||t<=n?0:Math.round((t-n)/t*100)}export{a,u as c,e as f};
